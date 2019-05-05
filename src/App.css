@@ -1,0 +1,92 @@
+body{
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.login{
+  margin-top: 6rem;
+  font-size: 20px;
+  box-shadow: 1px 1px 3px 0px #ff7f50;
+  list-style: none;
+  width: 30%;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+}
+.error-msg{
+  font-size: .8em;
+  padding: 0.5em 1em;
+  text-align: center;
+  color: #ff7f50;
+  border-bottom: 1px solid #dfe4ea;
+}
+.form-field-wrapper {
+  width: 100%;
+  position: relative;
+  padding-top: 1.75em;
+  background-color: #fff;
+}
+.form-field {
+  width: 100%;
+  position: relative;
+  padding-top: 1.75em;
+  border-bottom: 1px solid #dfe4ea;
+  background-color: #fff;
+}
+.form-field-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: relative;
+  padding: 16px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin: 0;
+  z-index: 1;
+  font-size: 0.9em;
+  color: #a4b0be;
+  cursor: text;
+}
+.form-field-input {
+  position: relative;
+  padding: 1.625em 16px;
+  width: relative;
+  color: #2f3542;
+  border: none;
+  outline: 0;
+  letter-spacing: 0.05em;
+}
+.form-submit-btn-wrapper {
+  padding: 0.8em 1em;
+  width: relative;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.form-btn {
+  border: none;
+  background-color: #fff;
+  border: 1px solid #ff7f50;
+  padding: 0.5em 1em;
+  font-size: 0.8em;
+  border-radius: 3px;
+  background-color: #ff7f50;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+.employee-list{
+  margin-top: 6rem;
+  font-size: 20px;
+  box-shadow: 1px 1px 3px 0px #ff7f50;
+  list-style: none;
+  width: 80%;
+  margin: 100px auto;
+  padding: 0.5em 1em;
+}
+.header{
+  text-align: center;
+  color: #ff7f50;
+}
+.ReactTable .rt-thead {
+  background: #ff7f50;
+  color: white;
+}
